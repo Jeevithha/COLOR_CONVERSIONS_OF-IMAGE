@@ -138,9 +138,7 @@ cv2.destroyAllWindows()
 ```
 ## Output
 ![Screenshot (29)](https://github.com/Jeevithha/COLOR_CONVERSIONS_OF-IMAGE/assets/123623197/194512b9-b6bc-494b-bd44-262436a4a8ec)
-
-
-### vii) HSV to RGB and BGR
+### viii) RGB and BGR to YCrCb
 ```
 <br>
 import cv2
@@ -160,29 +158,7 @@ cv2.destroyAllWindows()
 <br>
 ```
 ## Output
-![Screenshot (29)](https://github.com/Jeevithha/COLOR_CONVERSIONS_OF-IMAGE/assets/123623197/602fde69-e577-4e58-82e6-52a8b5a1e3b6)
-### viii) RGB and BGR to YCrCb
-```
-<br>
-import cv2
-img = cv2.imread('dog.jpeg')
-img = cv2.resize(img,(300,200))
-
-img = cv2.cvtColor(img,cv2.COLOR_BGR2HSV)
-cv2.imshow('Original HSV Image',img)
-
-RGB = cv2.cvtColor(img,cv2.COLOR_HSV2RGB)
-cv2.imshow('2HSV2BGR',RGB)
-
-BGR = cv2.cvtColor(img,cv2.COLOR_HSV2BGR)
-cv2.imshow('HSV2RGB',BGR)
-
-cv2.waitKey(0)
-cv2.destroyAllWindows()
-<br>
-```
-## Output
-![Screenshot (29)](https://github.com/Jeevithha/COLOR_CONVERSIONS_OF-IMAGE/assets/123623197/d00577b2-232e-47fe-b90c-244278fe8f02)
+![Screenshot 2024-02-23 090149](https://github.com/Jeevithha/COLOR_CONVERSIONS_OF-IMAGE/assets/123623197/b7f68341-95d3-44d5-bf40-4423ce27579b)
 ### ix) Split and merge RGB Image
 <br>
 <br>
